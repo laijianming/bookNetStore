@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>day00_00NetStore</display-name>
+  
+  <welcome-file-list>
+  	<welcome-file>/customer/index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>BackstageServlet</servlet-name>
+    <servlet-class>controller.BackstageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>controller.CustomerServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>BackstageServlet</servlet-name>
+    <url-pattern>/servlet/BackstageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/servlet/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <filter>
+  	<filter-name>BackstageFilter</filter-name>
+  	<filter-class>Filter.BackstageFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>BackstageFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>ManagerLoginFilter</filter-name>
+  	<filter-class>Filter.ManagerLogin</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>ManagerLoginFilter</filter-name>
+  	<url-pattern>/manage/manage.jsp</url-pattern>
+  </filter-mapping>
+</web-app>

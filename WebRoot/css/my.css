@@ -1,0 +1,188 @@
+
+body{
+	/* 添加背景图，设置大小 */
+	background: url(../imgs/9.jpg);
+	/* background-size: 1600px 800px; */
+	background-size: cover;
+	/* 设置字体的尺寸  */
+	font-size: 20px;
+	/* 文本水平居中 */
+	text-align: center;
+}
+
+
+/* 当鼠标指向时，会变色 */
+.a_hover:hover{
+	color: #f00;
+	text-decoration: none;
+}
+
+#d1 a{
+	text-decoration : blink;
+}
+
+/* 当鼠标指向时，会变色 */
+.a_hover:hover{
+	color: #f00;
+	text-decoration: none;
+}
+
+/* table{
+	font-size: 12px;
+} */
+
+/* 给tb1加样式 addCategory.jsp*/
+#tb1 {
+	/*margin后面如果只有两个参数的话，第一个表示top和bottom，第二个表示left和right
+		因为0 auto，表示上下边界为0，左右则根据宽度自适应相同值（即居中）*/
+	margin:0 auto;
+	width : 500px;
+	border: 2px solid #000;
+}
+#tb1 td {
+	border: 1px solid #000;
+	
+}
+
+
+/* 给tb2加样式 selectCategory.jsp */
+#tb2 {
+	margin:0 auto;
+	width : 500px;
+	border: 2px solid #000;
+	/* 文本水平居中 */
+	text-align: center;
+}
+
+
+/* 给tb2 中的 td 加样式 */
+#tb2 td {
+	border: 1px solid #000;
+	
+}
+#tb2 th {
+	border: 1px solid #000;
+	background-color: #EE9A00;
+}
+
+/* 给tb3加样式  modifyCategory.jsp */
+#tb3 {
+  /* ���ı����м� */
+	margin:0 auto;
+	width : 500px;
+	border: 2px solid #000;
+}
+
+#tb3 th {
+	border: 1px solid #000;
+	background-color: #EE9A00;
+
+}
+
+#tb3 td {
+	border: 1px solid #000;
+	background-color: #c3f3c3;
+
+}
+
+
+/* 给tb4加样式   addBooks.jsp*/
+#tb4 {
+	margin:0 auto;
+	width : 400px;
+	border: 2px solid #000;
+}
+
+#tb4 th {
+	border: 1px solid #000;
+	background-color: #EE9A00;
+
+}
+
+#tb4 td {
+	border: 1px solid #000;
+	background-color: #c3f3c3;
+
+}
+
+/* 给tb5加样式   addBooks.jsp*/
+#tb5 {
+	margin:0 auto;
+	border: 2px solid #000;
+}
+
+#tb5 th {
+	border: 1px solid #000;
+	background-color: #EE9A00;
+	width : 50px;
+
+}
+
+#tb5 td {
+	border: 1px solid #000;
+	background-color: #c3f3c3;
+	width : 500px;
+}
+
+/* 给tb6加样式   modifyBook.jsp*/
+#tb6 {
+	margin:0 auto;
+	border: 2px solid #000;
+}
+
+#tb6 th {
+	border: 1px solid #000;
+	background-color: #EE9A00;
+	width : 50px;
+}
+
+#tb6 th div{
+	width : 50px;
+}
+
+#tb6 td {
+	border: 1px solid #000;
+	background-color: #c3f3c3;
+	width : 150px;
+}
+
+}
+
+/* 给tb7加样式 manage.jsp */
+#tb7 {
+	margin:auto;
+	border: 2px solid #FFF;
+	width : 450px;
+	height : 300px;
+	/* 设置字体的尺寸  */
+	font-size: 30px;
+}
+
+#tb7 td {
+	border: 1px solid #FFF;
+	background-color: #FFF;
+	
+}
+
+#tb7 td input {
+	height : 30px ;
+	width : 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.odd{
+	background-color: #c3f3c3;
+}
+.even{
+	background-color: #f3c3f3;
+}

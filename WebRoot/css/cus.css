@@ -1,0 +1,45 @@
+body{
+	/* 设置字体的尺寸  */
+	font-size: 15px;
+	/* 文本水平居中 */
+	text-align: center;
+}
+
+/* 当鼠标指向时，会变色 */
+.a_hover:hover{
+	color: #f00;
+	text-decoration: none;
+}
+
+.a1_hover:hover{
+	color: #00FFFF;
+	text-decoration: none;
+}
+
+.a2_hover:hover{
+	color: #00FFFF;
+	background-color: #FFC1C1;
+}
+
+.a3_hover:hover{
+	color: #00FFFF;
+	background-color: #FFC1C1;
+}
+
+/* 给tb1加样式 IBook.jsp  */
+#tb1 {
+	/* 文本水平居左 */
+	text-align: left;
+	/* 设置字体的尺寸  */
+	font-size: 15px;
+	margin:0 auto;/*居中  */
+}
+
+/* 给tb2加样式 detailedInfo.jsp */
+#tb2 {
+	margin:0 auto;
+	/* 文本水平居左 */
+	text-align: left;
+}
+
+
